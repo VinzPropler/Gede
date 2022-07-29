@@ -2,6 +2,11 @@ import random
 import socket
 import threading
 
+password = input("[•] Account :")
+time.sleep(2)
+if password=="VNZ":
+  print("[✓] Akun  Berhasil Masuk")
+  time.sleep(2)
 print("--- AUTHOR BY : Vinzz ---")
 print("--- TOOLS BY : VNZ COMUNITY ---")
 print("--- JANGAN ABUSE YA ---")
@@ -48,3 +53,5 @@ for y in range(threads):
   else:
     th = threading.Thread(target = run2)
     th.start()
+  else:
+    print("\033[1;31;40m[!] Wrong Password!")
